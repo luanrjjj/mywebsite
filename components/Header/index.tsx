@@ -8,7 +8,7 @@ import {
   HeaderComponent,
   HeaderContainer,
   HeaderContent,
-  HeaderLinks,
+
   HeaderLogo,
   HeaderTitle,
   StyledLinks,
