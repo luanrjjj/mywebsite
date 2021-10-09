@@ -56,18 +56,29 @@ export const StyledNav = styled.nav``
 export const StyledLinks = styled.div`
   ol {
     display: flex;
+
     li {
       margin: 7px 5px;
       position: relative;
       font-size: 13px;
       margin-left: 10px;
+      counter-increment: item 1;
+      list-style: none;
 
       a {
-        padding: 5px;
+        padding: 10px;
+
+        &:hover {
+          color:#22543D;
+        }
+
+        &:before {
+          content: '0' counter(item) '.';
+          margin-right: 5px;
+          color: #22543D;
+          text-align: right;
+        }
       }
     }
-  }
-  a {
-    padding: 10px;
   }
 `
