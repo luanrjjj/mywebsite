@@ -57,14 +57,16 @@ export const JobsSection = () => {
             ) : (
               <>
                 <span>Estágio</span>
-                <p>
-                  Lorem ipsum fermentum taciti aliquam
-                  elementum hac malesuada nullam quis in
-                </p>
-                <p>
-                  Lorem ipsum fermentum taciti aliquam
-                  elementum hac malesuada nullam quis in
-                </p>
+                <ul>
+                  <li>
+                    Lorem ipsum fermentum taciti aliquam
+                    elementum hac malesuada nullam quis in
+                  </li>
+                  <li>
+                    Lorem ipsum fermentum taciti aliquam
+                    elementum hac malesuada nullam quis in
+                  </li>
+                </ul>
               </>
             )}
           </Text>

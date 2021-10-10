@@ -67,26 +67,46 @@ export const Text = styled.div`
 
   .Function {
     color: ${colors.white};
-    margin-left:15px;
+    margin-left: 15px;
   }
   .Company {
     color: ${colors.green300};
+    display: inline-block;
+    position: relative;
+    margin-left: 5px;
 
-    &:hover {
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      background-color: ${colors.green200};
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+
+    &:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
     }
   }
 
   ul {
-    li:before {
-      content: '';
-      position: absolute;
-      border-right: 2px solid black;
-      border-bottom: 2px solid black;
-      width: 10px;
-      height: 10px;
-      top: calc(50% - 4px);
-      left: -20px;
-      transform: translateY(-50%) rotate(-45deg);
-    }
+    list-style: none;
+    margin: 0.75em 0;
+    padding: 0 1em;
+  }
+  li::before {
+    content: '>';
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0em;
+    position: relative;
+    color: ${colors.green200};
   }
 `
