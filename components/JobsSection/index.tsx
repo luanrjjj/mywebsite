@@ -52,11 +52,27 @@ export const JobsSection = () => {
                     curabitur elit cras massa sem lectus
                     quis curabitur.
                   </li>
+                  <li>
+                    Lorem ipsum fermentum taciti aliquam
+                    elementum hac malesuada nullam quis in
+                    porttitor.
+                  </li>
+                  <li>
+                    Lorem ipsum fermentum taciti aliquam
+                    elementum hac malesuada nullam quis in
+                    porttitor.
+                  </li>
                 </ul>
               </>
             ) : (
               <>
-                <span>Estágio</span>
+                 <span className="Function">
+                  Estágio
+                  <a className="Company">
+                    {' '}
+                    @ Lemobs
+                  </a>
+                </span>
                 <ul>
                   <li>
                     Lorem ipsum fermentum taciti aliquam

@@ -7,6 +7,7 @@ interface JobsProps {
 }
 export const Section = styled.div`
   max-width: 100%;
+  max-height: 400px;
 `
 export const SectionContent = styled.div`
   max-width: 700px;
@@ -47,6 +48,7 @@ export const JobsList = styled.ul`
   padding: 0;
   margin: 0;
   list-style: none;
+  height: 300px;
 
   li {
   }
@@ -96,8 +98,11 @@ export const Text = styled.div`
 
   ul {
     list-style: none;
-    margin: 0.75em 0;
+    margin: 0.75em 0; 
     padding: 0 1em;
+  }
+  li{
+    color: ${colors.white};
   }
   li::before {
     content: '>';
