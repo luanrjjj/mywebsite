@@ -16,5 +16,9 @@ const colors = {
   gray300: '#CBD5E0',
   gray500: '#718096',
   gray700: '#2D3748',
+
+  body: '#0E2439',
+  lightbody: '#1F364D',
+  heavybody: '#0C2133',
 }
 export default colors

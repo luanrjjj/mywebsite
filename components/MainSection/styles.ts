@@ -1,24 +1,29 @@
 import styled from 'styled-components'
 import colors from '../../styles/colors'
 
+export const Maxwidth = styled.div`
+  background-color: ${colors.body};
+  max-width: 100%;
+  border-bottom: 3px solid ${colors.lightbody};
+`
+
 export const Main = styled.div`
   max-width: 1050px;
-  background-color: #f8f8fb;
+  background-color: ${colors.body};
   margin: auto;
-  height: 800px;
+  height: 500px;
 
   .TextMain {
-    margin-top: 100px;
     position: absolute;
     margin-left: 40px;
 
     .MyName {
-      color: #22543d;
+      color: ${colors.gray500};
       font-weight: 800;
     }
 
     h1 {
-      color: ${colors.gray500};
+      color: #22543d;
       font-size: 64px;
     }
 

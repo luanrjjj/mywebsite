@@ -1,8 +1,12 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import React from 'react'
 import AboutMeSection from '../components/AboutMeSection'
 import Header from '../components/Header'
+import { JobsSection } from '../components/JobsSection'
 import MainSection from '../components/MainSection'
+import { SocialItems } from '../components/socialItems'
+import { Body } from './styles'
 
 const Home: NextPage = () => {
   return (
@@ -15,10 +19,17 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Body>
+        <Header />
+        <div className="SectionContent">
+          <MainSection />
 
-      <Header />
-      <MainSection />
-      <AboutMeSection/>
+          <AboutMeSection />
+          <JobsSection />
+        </div>
+
+        <SocialItems />
+      </Body>
     </>
   )
 }

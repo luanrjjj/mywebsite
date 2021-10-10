@@ -17,8 +17,8 @@ max-width:1050px;
 `
 export const HeaderContainer = styled.header`
   max-width: 100%;
-  background-color: ${colors.white};
-  border-bottom: 1px solid ${colors.gray};
+  background-color: ${colors.body};
+  border-bottom: 1px solid ${colors.lightbody};
   z-index: 11;
 `
 
@@ -28,7 +28,7 @@ export const HeaderComponent = styled.header`
   margin-right: auto;
   display: flex;
   justify-content: space-between;
-  max-width: 1050px;
+  width: 100%;
   min-width: 600px;
 `
 
@@ -44,7 +44,7 @@ export const HeaderTitle = styled.div`
   display: flex;
   margin-left: 50px;
   margin-top: 15px;
-  color: ${colors.black};
+  color: #22543d;
   font-weight: 700;
   font-size: 25px;
 `
@@ -67,15 +67,16 @@ export const StyledLinks = styled.div`
 
       a {
         padding: 10px;
+        color: ${colors.white};
 
         &:hover {
-          color:#22543D;
+          color: #22543d;
         }
 
         &:before {
           content: '0' counter(item) '.';
           margin-right: 5px;
-          color: #22543D;
+          color: #22543d;
           text-align: right;
         }
       }
