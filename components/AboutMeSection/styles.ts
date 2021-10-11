@@ -46,7 +46,7 @@ export const AboutMeContent = styled.div`
   .ImageBox {
     display: block;
     position: relative;
-    width: 150px;
+    width: 300px;
     border-radius: 20px;
     background-color: ${colors.gray500};
 
@@ -58,8 +58,8 @@ export const AboutMeContent = styled.div`
     }
   }
   .ImageFace {
-    width: 150px;
-    height: 200px;
+    width: 300px;
+    height: 400px;
 
     .imgFace {
       position: relative;

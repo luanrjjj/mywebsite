@@ -13,30 +13,31 @@ export const StyledSocialList = styled.ul`
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
- 
 
   &:after {
     content: '';
     display: block;
     width: 1px;
-    height: 90px;
+    height: 120px;
     margin: 0 auto;
     background-color: ${colors.white};
   }
+
   li {
+    margin-bottom: 15px;
     &:last-of-type {
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
-    a {
-      padding: 10px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+      color: ${colors.white};
+
       &:hover,
       &:focus {
         transform: translateY(-3px);
-      }
-      svg {
-        width: 20px;
-        height: 20px;
-        color: ${colors.white};
+        color: ${colors.green300};
       }
     }
   }

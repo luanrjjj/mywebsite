@@ -16,10 +16,13 @@ max-width:1050px;
 */
 `
 export const HeaderContainer = styled.header`
-  max-width: 100%;
+  width: 100%;
   background-color: ${colors.body};
   border-bottom: 1px solid ${colors.lightbody};
   z-index: 11;
+  position: fixed;
+  top: 0;
+  bottom: auto;
 `
 
 export const HeaderComponent = styled.header`

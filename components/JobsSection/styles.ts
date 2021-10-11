@@ -8,6 +8,7 @@ interface JobsProps {
 export const Section = styled.div`
   max-width: 100%;
   max-height: 400px;
+  border-bottom: 3px solid ${colors.lightbody};
 `
 export const SectionContent = styled.div`
   max-width: 700px;
@@ -98,10 +99,10 @@ export const Text = styled.div`
 
   ul {
     list-style: none;
-    margin: 0.75em 0; 
+    margin: 0.75em 0;
     padding: 0 1em;
   }
-  li{
+  li {
     color: ${colors.white};
   }
   li::before {

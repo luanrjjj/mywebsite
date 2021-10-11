@@ -5,6 +5,7 @@ import AboutMeSection from '../components/AboutMeSection'
 import Header from '../components/Header'
 import { JobsSection } from '../components/JobsSection'
 import MainSection from '../components/MainSection'
+import ProjectsSection from '../components/ProjectsSection'
 import { SocialItems } from '../components/socialItems'
 import { Body } from './styles'
 
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
 
           <AboutMeSection />
           <JobsSection />
+          <ProjectsSection />
         </div>
 
         <SocialItems />

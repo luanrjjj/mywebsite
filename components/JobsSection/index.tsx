@@ -66,12 +66,9 @@ export const JobsSection = () => {
               </>
             ) : (
               <>
-                 <span className="Function">
+                <span className="Function">
                   Estágio
-                  <a className="Company">
-                    {' '}
-                    @ Lemobs
-                  </a>
+                  <a className="Company"> @ Lemobs</a>
                 </span>
                 <ul>
                   <li>

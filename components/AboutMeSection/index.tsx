@@ -41,9 +41,9 @@ const AboutMeSection = () => {
               <div className="ImageBox">
                 <div className="ImageFace">
                   <Image
-                    src="/MyFace.jpeg"
-                    width={150}
-                    height={200}
+                    src="/MyFace.jpg"
+                    width={300}
+                    height={400}
                     className="imgFace"
                   ></Image>
                 </div>
