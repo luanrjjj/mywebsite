@@ -3,7 +3,7 @@ import colors from '../../styles/colors'
 
 export const Section = styled.div`
   max-width: 100%;
-  max-height: 1100px;
+  max-height: 1300px;
   border-bottom: 3px solid ${colors.lightbody};
 `
 export const SectionContent = styled.div`
@@ -32,10 +32,50 @@ export const SectionContent = styled.div`
       margin-left: 180px;
     }
   }
+  ul {
+    list-style: none;
+    margin: 0.75em 0;
+    padding: 0 1em;
+
+    li {
+      margin-top: 30px;
+      display: flex;
+
+      p {
+        color: ${colors.white};
+        width: 400px;
+      }
+      .features {
+        color: ${colors.green300};
+      }
+
+      h3 {
+        color: ${colors.gray300};
+      }
+    }
+    .detailsProject {
+      display: flex;
+      width: 500px;
+      flex-direction: row;
+      flex-wrap: wrap;
+    
+
+      div {
+        margin-left: 10px;
+        color: ${colors.gray500};
+        list-style: none;
+       
+      }
+    }
+  }
 `
 export const GridContent = styled.div`
-  grid-template-columns: 3fr 2fr;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
   grid-gap: 50px;
 `
 
-export const Text = styled.div``
+export const Text = styled.div`
+  margin: auto;
+  width: 300px;
+`

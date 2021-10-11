@@ -16,6 +16,7 @@ const MainSection = () => {
               Meu objetivo é trazer valor para a vida das
               pessoas através de produtos digitais.
             </p>
+            <button>Resumo</button>
           </div>
         </Main>
       </Maxwidth>
