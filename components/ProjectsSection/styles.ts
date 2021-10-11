@@ -42,7 +42,7 @@ export const SectionContent = styled.div`
       display: flex;
 
       p {
-        color: ${colors.white};
+        color: ${colors.gray300};
         width: 400px;
       }
       .features {
@@ -58,13 +58,11 @@ export const SectionContent = styled.div`
       width: 500px;
       flex-direction: row;
       flex-wrap: wrap;
-    
 
       div {
         margin-left: 10px;
         color: ${colors.gray500};
         list-style: none;
-       
       }
     }
   }
@@ -73,9 +71,44 @@ export const GridContent = styled.div`
   display: grid;
   grid-template-columns: 2fr 2fr;
   grid-gap: 50px;
+  height:300px; 
+
+  .imageGrid {
+    height:100%;
+  }
+
+  .imageBox {
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    background-color: ${colors.gray500};
+    height:250px; 
+    
+   
+
+    &:hover,
+    &:focus {
+      background-color: ${colors.gray100};
+      outline: 0;
+    }
+  }
+  .imageProject {
+    position: relative;
+    border-radius: 20px;
+
+    mix-blend-mode: multiply;
+  }
 `
 
 export const Text = styled.div`
   margin: auto;
   width: 300px;
+
+  .cardText {
+    background-color: ${colors.heavybody};
+    width: 600px;
+    transform: translate(-30%, 0);
+    padding: 20px;
+    z-index: 20;
+  }
 `

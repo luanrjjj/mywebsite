@@ -17,28 +17,35 @@ const ProjectsSection = () => {
           <ul>
             <li>
               <GridContent>
-                <Image
-                  alt=""
-                  src="/GoBarber.jpg"
-                  width={500}
-                  height={250}
-                ></Image>
+                <div className="imageGrid">
+                  <div className="imageBox">
+                    <Image
+                      alt=""
+                      src="/GoBarber.jpg"
+                      width={500}
+                      height={250}
+                      className="imageProject"
+                    ></Image>
+                  </div>
+                </div>
                 <Text>
                   <p className="features">
                     Características
                   </p>
                   <h3>GoBarber</h3>
-                  <p>
-                    Est libero platea curae duis hendrerit
-                    per ut dapibus per, class auctor cursus
-                    tempus gravida lectus habitasse neque
-                    massa, vestibulum proin velit tempor
-                    volutpat amet sagittis mauris. iaculis
-                    torquent etiam quis primis mattis
-                    curabitur, fermentum ut auctor fusce
-                    aptent, mollis elementum luctus cubilia
-                    iaculis.
-                  </p>
+                  <div>
+                    <p className="cardText">
+                      Est libero platea curae duis hendrerit
+                      per ut dapibus per, class auctor
+                      cursus tempus gravida lectus habitasse
+                      neque massa, vestibulum proin velit
+                      tempor volutpat amet sagittis mauris.
+                      iaculis torquent etiam quis primis
+                      mattis curabitur, fermentum ut auctor
+                      fusce aptent, mollis elementum luctus
+                      cubilia iaculis.
+                    </p>
+                  </div>
 
                   <div className="detailsProject">
                     <div>ReactJS</div>
