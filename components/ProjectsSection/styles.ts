@@ -48,6 +48,9 @@ export const SectionContent = styled.div`
       .features {
         color: ${colors.green300};
       }
+      .features1 {
+        color: ${colors.green300};
+      }
 
       h3 {
         color: ${colors.gray300};
@@ -71,10 +74,11 @@ export const GridContent = styled.div`
   display: grid;
   grid-template-columns: 2fr 2fr;
   grid-gap: 50px;
-  height:300px; 
+  height: 350px;
 
   .imageGrid {
-    height:100%;
+    height: 100%;
+    margin-top: 30px;
   }
 
   .imageBox {
@@ -82,9 +86,7 @@ export const GridContent = styled.div`
     position: relative;
     border-radius: 20px;
     background-color: ${colors.gray500};
-    height:250px; 
-    
-   
+    height: 250px;
 
     &:hover,
     &:focus {
@@ -101,8 +103,14 @@ export const GridContent = styled.div`
 `
 
 export const Text = styled.div`
-  margin: auto;
   width: 300px;
+  margin-left: 50px;
+  z-index: 20;
+
+  .content {
+    top: -20%;
+    height: 100%;
+  }
 
   .cardText {
     background-color: ${colors.heavybody};
@@ -110,5 +118,12 @@ export const Text = styled.div`
     transform: translate(-30%, 0);
     padding: 20px;
     z-index: 20;
+  }
+
+  .cardText1 {
+    background-color: ${colors.heavybody};
+    width: 600px;
+    padding: 20px;
+    transform: translate(0%, 0);
   }
 `
