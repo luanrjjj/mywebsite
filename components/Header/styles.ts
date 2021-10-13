@@ -19,10 +19,14 @@ export const HeaderContainer = styled.header`
   width: 100%;
   background-color: ${colors.body};
   border-bottom: 1px solid ${colors.lightbody};
-  z-index: 11;
+  z-index: 30;
   position: fixed;
   top: 0;
   bottom: auto;
+
+  @media (max-width: 1200px) {
+    position: relative;
+  }
 `
 
 export const HeaderComponent = styled.header`
@@ -32,7 +36,11 @@ export const HeaderComponent = styled.header`
   display: flex;
   justify-content: space-between;
   width: 100%;
-  min-width: 600px;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    align-items: center;
+  }
 `
 
 export const HeaderLogo = styled.div`
@@ -41,6 +49,10 @@ export const HeaderLogo = styled.div`
   position: absolute;
   margin-top: 5px;
   margin-right: 10px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 2px;
+  }
 `
 
 export const HeaderTitle = styled.div`
@@ -50,11 +62,17 @@ export const HeaderTitle = styled.div`
   color: #22543d;
   font-weight: 700;
   font-size: 25px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 10px;
+  }
 `
 
 export const HeaderContent = styled.div``
 
-export const StyledNav = styled.nav``
+export const StyledNav = styled.nav`
+  margin-right: 60px;
+`
 
 export const StyledLinks = styled.div`
   ol {
@@ -84,5 +102,8 @@ export const StyledLinks = styled.div`
         }
       }
     }
+  }
+  @media (max-width: 768px) {
+    display: none;
   }
 `
