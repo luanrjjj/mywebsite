@@ -112,6 +112,19 @@ export const Text = styled.div`
     height: 100%;
   }
 
+  .Icons {
+    width: 100%;
+    svg {
+      color: ${colors.gray300};
+      margin-top: 10px;
+      margin-left: 10px;
+
+      &:hover {
+        color: ${colors.gray500};
+      }
+    }
+  }
+
   .cardText {
     background-color: ${colors.heavybody};
     width: 600px;
@@ -124,6 +137,6 @@ export const Text = styled.div`
     background-color: ${colors.heavybody};
     width: 600px;
     padding: 20px;
-    transform: translate(0%, 0);
+    transform: translate(-5%, 0);
   }
 `

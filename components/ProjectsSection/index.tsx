@@ -6,6 +6,8 @@ import {
   Text,
 } from './styles'
 import Image from 'next/image'
+import { MdOutlineOpenInNew } from 'react-icons/md'
+import { FiGithub } from 'react-icons/fi'
 
 const ProjectsSection = () => {
   return (
@@ -59,6 +61,10 @@ const ProjectsSection = () => {
                       <div>Styled-Components</div>
                       <div>Amazon SES e S3</div>
                     </div>
+                    <div className="Icons">
+                      <MdOutlineOpenInNew />
+                      <FiGithub />
+                    </div>
                   </div>
                 </Text>
               </GridContent>
@@ -96,6 +102,10 @@ const ProjectsSection = () => {
                       <div className="lineBreak">Redis</div>
                       <div>Styled-Components</div>
                       <div>Amazon SES</div>
+                    </div>
+                    <div className="Icons">
+                      <MdOutlineOpenInNew />
+                      <FiGithub />
                     </div>
                   </div>
                 </Text>
