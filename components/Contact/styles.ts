@@ -1,6 +1,37 @@
 import styled from 'styled-components'
 import colors from '../../styles/colors'
 
+export const ContactSection = styled.div `
+  max-width: 100%;
+  
+  .SectionContent {
+    max-width: 850px;
+    margin: auto;
+    h2 {
+      counter-increment: item 1;
+      overflow: hidden;
+      position: relative;
+      color: ${colors.white};
+
+      &:before {
+        content: '04''.';
+        margin-right: 5px;
+        color: #22543d;
+        text-align: right;
+      }
+      &:after {
+        content: '';
+        display: block;
+        position: relative;
+        top: -12px;
+        width: 300px;
+        height: 1px;
+        margin-left: 180px;
+      }
+    }
+  }
+`
+
 export const Form = styled.div`
   body {
     background: #0e101c;
@@ -67,7 +98,7 @@ export const Form = styled.div`
   input[type='submit'] {
     background: linear-gradient(
       134deg,
-      ${colors.green100}  0%,
+      ${colors.green100} 0%,
       ${colors.green300} 99%
     );
     color: white;
@@ -84,7 +115,7 @@ export const Form = styled.div`
   input[type='button']:hover,
   input[type='submit']:hover {
     transition: 0.3s all;
-    transform: translateZ(3px);
+    transform: translateZ(42px);
     border: 1px solid transparent;
     opacity: 0.8;
   }

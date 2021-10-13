@@ -23,7 +23,7 @@ const ProjectsSection = () => {
                   <div className="imageBox">
                     <Image
                       alt=""
-                      src="/GoBarber.jpg"
+                      src="/MeczBarber.png"
                       width={500}
                       height={250}
                       className="imageProject"
@@ -113,13 +113,66 @@ const ProjectsSection = () => {
                   <div className="imageBox">
                     <Image
                       alt=""
-                      src="/GoBarber.jpg"
+                      src="/GitDash.png"
                       width={500}
                       height={250}
                       className="imageProject"
                     ></Image>
                   </div>
                 </div>
+              </GridContent>
+            </li>
+
+            <li>
+              <GridContent>
+                <div className="imageGrid">
+                  <div className="imageBox">
+                    <Image
+                      alt=""
+                      src="/Ignews.png"
+                      width={500}
+                      height={250}
+                      className="imageProject"
+                    ></Image>
+                  </div>
+                </div>
+                <Text>
+                  <div className="content">
+                    <p className="features">
+                      Características
+                    </p>
+                    <h3>GoBarber</h3>
+                    <div>
+                      <p className="cardText">
+                        Est libero platea curae duis
+                        hendrerit per ut dapibus per, class
+                        auctor cursus tempus gravida lectus
+                        habitasse neque massa, vestibulum
+                        proin velit tempor volutpat amet
+                        sagittis mauris. iaculis torquent
+                        etiam quis primis mattis curabitur,
+                        fermentum ut auctor fusce aptent,
+                        mollis elementum luctus cubilia
+                        iaculis.
+                      </p>
+                    </div>
+
+                    <div className="detailsProject">
+                      <div>ReactJS</div>
+                      <div>NodeJS</div>
+                      <div>Jest</div>
+                      <div>MongoDB</div>
+                      <div>Postgres</div>
+                      <div className="lineBreak">Redis</div>
+                      <div>Styled-Components</div>
+                      <div>Amazon SES e S3</div>
+                    </div>
+                    <div className="Icons">
+                      <MdOutlineOpenInNew />
+                      <FiGithub />
+                    </div>
+                  </div>
+                </Text>
               </GridContent>
             </li>
           </ul>

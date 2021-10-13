@@ -25,7 +25,7 @@ export const Main = styled.div`
 
     h1 {
       color: #22543d;
-      font-size: 64px;
+      font-size: 36px;
     }
 
     h2 {
