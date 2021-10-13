@@ -12,6 +12,7 @@ export const Section = styled.section`
       overflow: hidden;
       position: relative;
       color: ${colors.white};
+      margin-left: 10px;
 
       &:before {
         content: '0' counter(item) '.';
@@ -42,6 +43,9 @@ export const AboutMeContent = styled.div`
 
   .Picture {
     position: relative;
+    @media (max-width: 815px) {
+      display: none;
+    }
   }
   .ImageBox {
     display: block;
@@ -71,4 +75,10 @@ export const AboutMeContent = styled.div`
 export const Text = styled.div`
   font-family: 'Times New Roman', Times, serif;
   color: ${colors.gray500};
+  margin-left: 30px;
+  min-width: 400px;
+
+  @media (max-width: 340px) {
+    min-width: 300px;
+  }
 `

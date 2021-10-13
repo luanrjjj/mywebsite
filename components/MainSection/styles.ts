@@ -37,6 +37,13 @@ export const Main = styled.div`
       font-size: 16px;
       width: 500px;
       color: ${colors.gray500};
+
+      @media (max-width: 530px) {
+        width: 300px;
+      }
+    }
+    @media (max-width: 530px) {
+      width: 300px;
     }
   }
 

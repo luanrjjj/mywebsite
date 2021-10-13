@@ -25,11 +25,18 @@ const Home: NextPage = () => {
         <Header />
         <div className="SectionContent">
           <MainSection />
-
-          <AboutMeSection />
-          <JobsSection />
-          <ProjectsSection />
-          <Contact />
+          <div id="about">
+            <AboutMeSection />
+          </div>
+          <div id="jobs">
+            <JobsSection />
+          </div>
+          <div id="projects">
+            <ProjectsSection />
+          </div>
+          <div id="contact">
+            <Contact />
+          </div>
         </div>
 
         <SocialItems />

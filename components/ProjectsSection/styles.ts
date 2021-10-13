@@ -3,7 +3,6 @@ import colors from '../../styles/colors'
 
 export const Section = styled.div`
   max-width: 100%;
-  max-height: 1300px;
   border-bottom: 3px solid ${colors.lightbody};
 `
 export const SectionContent = styled.div`
@@ -15,6 +14,7 @@ export const SectionContent = styled.div`
     overflow: hidden;
     position: relative;
     color: ${colors.white};
+    margin-left: 20px;
 
     &:before {
       content: '03.';
@@ -76,9 +76,17 @@ export const GridContent = styled.div`
   grid-gap: 50px;
   height: 350px;
 
+  @media (max-width: 1050px) {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
   .imageGrid {
     height: 100%;
     margin-top: 30px;
+    min-height: 250px;
   }
 
   .imageBox {
@@ -87,6 +95,9 @@ export const GridContent = styled.div`
     border-radius: 20px;
     background-color: ${colors.gray500};
     height: 250px;
+    width: 500px;
+    min-width: 360px;
+    min-height: 250px !important;
 
     &:hover,
     &:focus {
@@ -97,8 +108,8 @@ export const GridContent = styled.div`
   .imageProject {
     position: relative;
     border-radius: 20px;
-
     mix-blend-mode: multiply;
+    min-height: 250px;
   }
 `
 
@@ -138,5 +149,9 @@ export const Text = styled.div`
     width: 600px;
     padding: 20px;
     transform: translate(-5%, 0);
+  }
+
+  @media (max-width: 1050px) {
+    display: none;
   }
 `

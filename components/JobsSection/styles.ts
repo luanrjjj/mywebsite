@@ -7,7 +7,7 @@ interface JobsProps {
 }
 export const Section = styled.div`
   max-width: 100%;
-  max-height: 400px;
+
   border-bottom: 3px solid ${colors.lightbody};
 `
 export const SectionContent = styled.div`
