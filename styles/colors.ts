@@ -10,6 +10,7 @@ const colors = {
   green100: '#C6F6D5',
   green200: '#9AE6B4',
   green300: '#68D391',
+  greenpattern: '#22543d',
 
   gray100: '#EDF2F7',
   gray200: '#E2E8F0',

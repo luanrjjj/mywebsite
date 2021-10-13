@@ -1,9 +1,8 @@
 import styled from 'styled-components'
 import colors from '../../styles/colors'
 
-export const ContactSection = styled.div `
+export const ContactSection = styled.div`
   max-width: 100%;
-  
   .SectionContent {
     max-width: 850px;
     margin: auto;
@@ -14,7 +13,7 @@ export const ContactSection = styled.div `
       color: ${colors.white};
 
       &:before {
-        content: '04''.';
+        content: '04' '.';
         margin-right: 5px;
         color: #22543d;
         text-align: right;
@@ -98,8 +97,8 @@ export const Form = styled.div`
   input[type='submit'] {
     background: linear-gradient(
       134deg,
-      ${colors.green100} 0%,
-      ${colors.green300} 99%
+      ${colors.green300} 0%,
+      #22543d 99%
     );
     color: white;
     text-transform: uppercase;
