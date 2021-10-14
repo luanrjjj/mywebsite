@@ -76,17 +76,23 @@ export const Text = styled.div`
   font-family: 'Times New Roman', Times, serif;
   color: ${colors.gray500};
   margin-left: 30px;
-  min-width: 400px;
+  width: 400px;
 
-  @media (max-width: 340px) {
-    min-width: 300px;
+  @media (max-width: 430px) {
+    width: 350px !important;
+  }
+  @media (max-width: 380px) {
+    width: 300px !important;
+  }
+  @media (max-width: 325px) {
+    width: 200px !important;
   }
 `
 
 export const BoardOfHabilities = styled.div`
   width: 300px;
   border: 1px dashed ${colors.green300};
-  
+
   h1 {
     color: ${colors.gray500};
     margin-left: 10px;
@@ -109,7 +115,7 @@ export const BoardOfHabilities = styled.div`
     color: ${colors.green200};
   }
 
-  @media (max-width:820px) {
-    display:none
+  @media (max-width: 820px) {
+    display: none;
   }
 `

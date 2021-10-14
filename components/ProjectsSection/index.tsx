@@ -134,7 +134,7 @@ const ProjectsSection = () => {
                           src="/GitDash.png"
                           width={500}
                           height={250}
-                          layout="fixed"
+                          layout="fill"
                           className="imageProject"
                         ></Image>
                       </a>
@@ -153,7 +153,7 @@ const ProjectsSection = () => {
                           src="/Ignews.png"
                           width={500}
                           height={250}
-                          layout="fixed"
+                          layout="fill"
                           className="imageProject"
                         ></Image>
                       </a>

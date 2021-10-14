@@ -6,6 +6,7 @@ export const Maxwidth = styled.div`
   max-width: 100%;
   border-bottom: 3px solid ${colors.lightbody};
   margin-top: 30px;
+  
 `
 
 export const Main = styled.div`
@@ -38,13 +39,14 @@ export const Main = styled.div`
       width: 500px;
       color: ${colors.gray500};
 
-      @media (max-width: 530px) {
+   @media (max-width: 530px) {
         width: 300px;
       }
+    
+    @media (max-width: 360px) {
+      width: 210px;
     }
-    @media (max-width: 530px) {
-      width: 300px;
-    }
+  }
   }
 
   button {

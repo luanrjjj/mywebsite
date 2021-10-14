@@ -103,6 +103,10 @@ export const Text = styled.div`
     list-style: none;
     margin: 0.75em 0;
     padding: 0 1em;
+
+    @media (max-width:320px) {
+      width: 100px;
+    }
   }
   li {
     color: ${colors.white};

@@ -3,6 +3,7 @@ import colors from '../styles/colors'
 
 const Body = styled.div`
   background-color: ${colors.body};
+  width: 100%;
 
   .SectionContent {
     width: 100%;

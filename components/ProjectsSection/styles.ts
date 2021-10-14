@@ -95,9 +95,26 @@ export const GridContent = styled.div`
     border-radius: 20px;
     background-color: ${colors.gray500};
     height: 250px;
+
     width: 500px;
-    min-width: 360px;
     min-height: 250px !important;
+
+    @media (max-width: 500px) {
+      width: 450px !important;
+    }
+    @media (max-width: 450px) {
+      width: 400px !important;
+    }
+    @media (max-width: 400px) {
+      width: 350px !important;
+    }
+    @media (max-width: 350px) {
+      width: 315px !important;
+    }
+
+    @media (max-width: 315px) {
+      width: 270px !important;
+    }
 
     &:hover,
     &:focus {
