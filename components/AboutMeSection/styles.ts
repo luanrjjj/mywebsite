@@ -82,3 +82,29 @@ export const Text = styled.div`
     min-width: 300px;
   }
 `
+
+export const BoardOfHabilities = styled.div`
+  width: 300px;
+  border: 1px dashed ${colors.green300};
+  h1 {
+    color: ${colors.gray500};
+    margin-left:10px;
+  }
+
+  li {
+    font-size: 12px;
+    list-style: none;
+    color:${colors.white};
+    margin-top: 10px;
+  }
+  li::before {
+    content: '>';
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0em;
+    position: relative;
+    color: ${colors.green200};
+  }
+`

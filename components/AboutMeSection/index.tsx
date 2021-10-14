@@ -1,7 +1,12 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable react/jsx-no-undef */
 import React, { useState, useEffect } from 'react'
-import { AboutMeContent, Section, Text } from './styles'
+import {
+  AboutMeContent,
+  BoardOfHabilities,
+  Section,
+  Text,
+} from './styles'
 import Image from 'next/image'
 
 const AboutMeSection = () => {
@@ -34,24 +39,31 @@ const AboutMeSection = () => {
                   uma startup e ter tido o primeiro contato
                   com Javascript, e acabei me apaixonando
                   pelo oportunidade de criação e da
-                  possibilidade, que a Internet proporciona,
+                  oportunidade, que a Internet proporciona,
                   de entrega de valor para milhares de
                   pessoas.
                 </p>
               </p>
             </Text>
-            <div className="Picture">
-              <div className="ImageBox">
-                <div className="ImageFace">
-                  <Image
-                    src="/MyFace.jpg"
-                    width={300}
-                    height={400}
-                    className="imgFace"
-                  ></Image>
-                </div>
+            <BoardOfHabilities>
+              <h1>Quadro de Habilidades</h1>
+              <div>
+                <ul>
+                  <li>React</li>
+                  <li>NodeJS</li>
+                  <li>
+                    Python e bibliotecas de análise de dados
+                  </li>
+                  <li>Laravel</li>
+                  <li>PowerBI</li>
+                  <li>Tableau</li>
+                  <li>VBA</li>
+                  <li>Jest</li>
+                  <li>Next</li>
+                  <li>Typescript</li>
+                </ul>
               </div>
-            </div>
+            </BoardOfHabilities>
           </AboutMeContent>
         </div>
       </Section>
