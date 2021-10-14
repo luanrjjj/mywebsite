@@ -37,7 +37,10 @@ export const JobsSection = () => {
               <>
                 <span className="Function">
                   Estágio
-                  <a className="Company">
+                  <a
+                    href="https://www.riogaleao.com"
+                    className="Company"
+                  >
                     {' '}
                     @ Aeroporto RioGaleão
                   </a>
@@ -75,7 +78,13 @@ export const JobsSection = () => {
               <>
                 <span className="Function">
                   Estágio
-                  <a className="Company"> @ Lemobs</a>
+                  <a
+                    href="https://lemobs.com.br"
+                    className="Company"
+                  >
+                    {' '}
+                    @ Lemobs
+                  </a>
                 </span>
                 <ul>
                   <li>

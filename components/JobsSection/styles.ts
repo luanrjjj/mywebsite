@@ -104,7 +104,7 @@ export const Text = styled.div`
     margin: 0.75em 0;
     padding: 0 1em;
 
-    @media (max-width:320px) {
+    @media (max-width: 320px) {
       width: 100px;
     }
   }
