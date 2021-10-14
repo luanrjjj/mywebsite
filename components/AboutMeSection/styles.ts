@@ -87,6 +87,11 @@ export const Text = styled.div`
   @media (max-width: 325px) {
     width: 200px !important;
   }
+
+  .details {
+    display: inline;
+    color: ${colors.green100};
+  }
 `
 
 export const BoardOfHabilities = styled.div`

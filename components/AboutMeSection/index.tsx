@@ -32,7 +32,9 @@ const AboutMeSection = () => {
                 iniciei na área de Análise de Dados, e
                 trabalhei com isso por quase 2 anos e meio,
                 utilizando vaŕias ferramentas de
-                visualização com Python, SQL e VBA.
+                visualização com{' '}
+                <p className="details">Python, SQL e VBA</p>
+                .
                 <p>
                   Porém, aos poucos fui estudando
                   programação Web, depois de trabalhar em
