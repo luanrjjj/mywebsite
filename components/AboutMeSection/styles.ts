@@ -86,6 +86,7 @@ export const Text = styled.div`
 export const BoardOfHabilities = styled.div`
   width: 300px;
   border: 1px dashed ${colors.green300};
+  
   h1 {
     color: ${colors.gray500};
     margin-left: 10px;
@@ -106,5 +107,9 @@ export const BoardOfHabilities = styled.div`
     top: 0em;
     position: relative;
     color: ${colors.green200};
+  }
+
+  @media (max-width:820px) {
+    display:none
   }
 `

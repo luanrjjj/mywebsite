@@ -147,14 +147,16 @@ const ProjectsSection = () => {
                 <GridContent>
                   <div className="imageGrid">
                     <div className="imageBox">
-                      <Image
-                        alt=""
-                        src="/Ignews.png"
-                        width={500}
-                        height={250}
-                        layout="fixed"
-                        className="imageProject"
-                      ></Image>
+                      <a href="https://ignews-two.vercel.app/">
+                        <Image
+                          alt=""
+                          src="/Ignews.png"
+                          width={500}
+                          height={250}
+                          layout="fixed"
+                          className="imageProject"
+                        ></Image>
+                      </a>
                     </div>
                   </div>
                   <Text>
@@ -187,8 +189,12 @@ const ProjectsSection = () => {
                         </div>
                       </div>
                       <div className="Icons">
-                        <MdOutlineOpenInNew />
-                        <FiGithub />
+                        <a href="https://ignews-two.vercel.app/">
+                          <MdOutlineOpenInNew />
+                        </a>
+                        <a href="https://github.com/luanrjjj/ignews">
+                          <FiGithub />
+                        </a>
                       </div>
                     </div>
                   </Text>

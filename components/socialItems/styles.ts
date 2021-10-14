@@ -14,6 +14,9 @@ export const StyledSocialList = styled.ul`
   position: sticky;
   bottom: 0;
 
+  @media (max-width: 1130px) {
+    display: none;
+  }
   &:after {
     content: '';
     display: block;

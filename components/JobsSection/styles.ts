@@ -19,6 +19,7 @@ export const SectionContent = styled.div`
     overflow: hidden;
     position: relative;
     color: ${colors.white};
+    margin-left: 20px;
 
     &:before {
       content: '02.';
@@ -50,6 +51,7 @@ export const JobsList = styled.ul`
   margin: 0;
   list-style: none;
   height: 350px;
+  margin-left: 20px;
 
   li {
   }
