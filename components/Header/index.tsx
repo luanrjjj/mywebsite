@@ -20,19 +20,19 @@ import Link from 'next/link'
 const Header = () => {
   const navLinks = [
     {
-      name: 'About',
+      name: 'Sobre ',
       url: '/#about',
     },
     {
-      name: 'Experience',
+      name: 'Experiência',
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projetos',
       url: '/#projects',
     },
     {
-      name: 'Contact',
+      name: 'Contato',
       url: '/#contact',
     },
   ]

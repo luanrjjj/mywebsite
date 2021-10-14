@@ -90,7 +90,7 @@ const Contact = () => {
               {Object.keys(errors).length > 0 &&
                 'There are errors, check your console.'}
             </div>
-            <input type="submit" />
+            <input type="submit" id="enviar"/>
           </form>
         </Form>
       </div>

@@ -14,26 +14,29 @@ const AboutMeSection = () => {
           <AboutMeContent>
             <Text>
               <p>
-                Lorem ipsum fermentum taciti aliquam
-                elementum hac malesuada nullam quis in
-                porttitor, lorem facilisis commodo
-                suspendisse felis aliquam venenatis hac
-                imperdiet tristique sem, sit vitae curabitur
-                elit cras massa sem lectus quis curabitur.
+                Com um forte interesse por literatura e por
+                disciplinas matemáticas, encontrei na
+                programação uma mescla das duas, e com a
+                possibilidade de criar algo com investimento
+                financeiro quase zero somente escrevendo
+                código, me fez tomar a iniciativa de sair da
+                área financeira e focar totalmente em
+                programação. Meu primeiro contato foi na
+                Universidade com Python, e por conta disso e
+                das disciplinas estatísticas do meu curso,
+                iniciei na área de Análise de Dados, e
+                trabalhei com isso por quase 2 anos e meio,
+                utilizando vaŕias ferramentas de
+                visualização com Python, SQL e VBA.
                 <p>
-                  Est libero platea curae duis hendrerit per
-                  ut dapibus per, class auctor cursus tempus
-                  gravida lectus habitasse neque massa,
-                  vestibulum proin velit tempor volutpat
-                  amet sagittis mauris. iaculis torquent
-                  etiam quis primis mattis curabitur,
-                  fermentum ut auctor fusce aptent, mollis
-                  elementum luctus cubilia iaculis.
-                  ultricies vestibulum nisi sagittis iaculis
-                  morbi suscipit praesent ut, nullam quisque
-                  morbi aenean maecenas vulputate pharetra,
-                  iaculis ad aliquam habitasse ornare netus
-                  placerat.{' '}
+                  Porém, aos poucos fui estudando
+                  programação Web, depois de trabalhar em
+                  uma startup e ter tido o primeiro contato
+                  com Javascript, e acabei me apaixonando
+                  pelo oportunidade de criação e da
+                  possibilidade, que a Internet proporciona,
+                  de entrega de valor para milhares de
+                  pessoas.
                 </p>
               </p>
             </Text>

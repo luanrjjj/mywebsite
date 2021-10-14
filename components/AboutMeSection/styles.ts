@@ -48,7 +48,7 @@ export const AboutMeContent = styled.div`
     }
   }
   .ImageBox {
-    display: block;
+    display: none;
     position: relative;
     width: 300px;
     border-radius: 20px;

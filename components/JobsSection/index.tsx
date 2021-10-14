@@ -44,23 +44,30 @@ export const JobsSection = () => {
                 </span>
                 <ul>
                   <li>
-                    Lorem ipsum fermentum taciti aliquam
-                    elementum hac malesuada nullam quis in
-                    porttitor, lorem facilisis commodo
-                    suspendisse felis aliquam venenatis hac
-                    imperdiet tristique sem, sit vitae
-                    curabitur elit cras massa sem lectus
-                    quis curabitur.
+                    Controle de Opex,na ordem de R$ 200 MM
+                    anual (correspondendo a mais de 60% do
+                    Opex total do Aeroporto), dos Setores de
+                    Operações e Engenharia;
                   </li>
                   <li>
-                    Lorem ipsum fermentum taciti aliquam
-                    elementum hac malesuada nullam quis in
-                    porttitor.
+                    Construção de Relatórios Financeiros
+                    para Diretoria, inserindo Ferramentas de
+                    Business Inteligence e Análise de Dados;
                   </li>
                   <li>
-                    Lorem ipsum fermentum taciti aliquam
-                    elementum hac malesuada nullam quis in
-                    porttitor.
+                    Instaurar uma cultura de acompanhamento
+                    dos custos para uma elaboração cada vez
+                    mais precisa do Orçamento.
+                  </li>
+                  <li>
+                    União da Perfomance Operacional com a
+                    Análise de Custos do Aeroporto Rio
+                    Galeão;
+                  </li>
+                  <li>
+                    Acompanhamento contínuo dos Custos com
+                    todos os Gestores de Engenharia e
+                    Operações do Aeroporto.
                   </li>
                 </ul>
               </>
@@ -72,12 +79,16 @@ export const JobsSection = () => {
                 </span>
                 <ul>
                   <li>
-                    Lorem ipsum fermentum taciti aliquam
-                    elementum hac malesuada nullam quis in
+                    Construção de Dashboards para Clientes
+                    Externos e Internos;
                   </li>
                   <li>
-                    Lorem ipsum fermentum taciti aliquam
-                    elementum hac malesuada nullam quis in
+                    Crição de fluxos de tratamento e análise
+                    de dados em Python;
+                  </li>
+                  <li>
+                    Ferramentas Utilizadas: Tableau, Python
+                    e SQL.
                   </li>
                 </ul>
               </>

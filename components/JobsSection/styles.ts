@@ -49,7 +49,7 @@ export const JobsList = styled.ul`
   padding: 0;
   margin: 0;
   list-style: none;
-  height: 300px;
+  height: 350px;
 
   li {
   }
@@ -104,6 +104,10 @@ export const Text = styled.div`
   }
   li {
     color: ${colors.white};
+
+    & + li {
+      margin-top: 10px;
+    }
   }
   li::before {
     content: '>';
