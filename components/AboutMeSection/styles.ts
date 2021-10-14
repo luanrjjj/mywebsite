@@ -88,13 +88,13 @@ export const BoardOfHabilities = styled.div`
   border: 1px dashed ${colors.green300};
   h1 {
     color: ${colors.gray500};
-    margin-left:10px;
+    margin-left: 10px;
   }
 
   li {
     font-size: 12px;
     list-style: none;
-    color:${colors.white};
+    color: ${colors.white};
     margin-top: 10px;
   }
   li::before {

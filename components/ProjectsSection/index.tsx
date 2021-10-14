@@ -40,16 +40,21 @@ const ProjectsSection = () => {
                       <h3>GoBarber</h3>
                       <div>
                         <p className="cardText">
-                          Est libero platea curae duis
-                          hendrerit per ut dapibus per,
-                          class auctor cursus tempus gravida
-                          lectus habitasse neque massa,
-                          vestibulum proin velit tempor
-                          volutpat amet sagittis mauris.
-                          iaculis torquent etiam quis primis
-                          mattis curabitur, fermentum ut
-                          auctor fusce aptent, mollis
-                          elementum luctus cubilia iaculis.
+                          Este projeto é um sistema de
+                          agendamento de uma barbearia. O
+                          front-end e o back-end foram
+                          separados, sendo que no front-end
+                          foi utilizado os conceitos mais
+                          avançados do React. O Back-end que
+                          foi o foco principal desse projeto
+                          foi feito com cobertura total de
+                          testes unitários, respeitando os
+                          príncipios SOLID na Arquitetura do
+                          projeto. Além dis so, o projeto
+                          utiliza 3 bancos de dados e também
+                          utiliza os serviços da Digital
+                          Ocean, para hospedagem do
+                          back-end, e Amazon S3 e SES.
                         </p>
                       </div>
 
@@ -84,33 +89,29 @@ const ProjectsSection = () => {
                       <h3>GoBarber</h3>
                       <div>
                         <p className="cardText1">
-                          Est libero platea curae duis
-                          hendrerit per ut dapibus per,
-                          class auctor cursus tempus gravida
-                          lectus habitasse neque massa,
-                          vestibulum proin velit tempor
-                          volutpat amet sagittis mauris.
-                          iaculis torquent etiam quis primis
-                          mattis curabitur, fermentum ut
-                          auctor fusce aptent, mollis
-                          elementum luctus cubilia iaculis.
+                          Como trabalhei bastante com a
+                          confecção de Dashboards em Powerbi
+                          e Tableau, decidi fazer um
+                          Dashboard com React. Este projeto
+                          consulta a API do Github e fornece
+                          as informações do repositório de
+                          um Usuário em um Dashboard.
                         </p>
                       </div>
 
                       <div className="detailsProject">
                         <div>ReactJS</div>
-                        <div>NodeJS</div>
-                        <div>Jest</div>
-                        <div>MongoDB</div>
-                        <div>Postgres</div>
-                        <div className="lineBreak">
-                          Redis
-                        </div>
+                        <div>Github API</div>
                         <div>Styled-Components</div>
-                        <div>Amazon SES</div>
+
+                        <div className="lineBreak">
+                          ChartJS
+                        </div>
                       </div>
                       <div className="Icons">
-                        <MdOutlineOpenInNew />
+                        <a>
+                          <MdOutlineOpenInNew />
+                        </a>
                         <FiGithub />
                       </div>
                     </div>
@@ -152,30 +153,26 @@ const ProjectsSection = () => {
                       <h3>GoBarber</h3>
                       <div>
                         <p className="cardText">
-                          Est libero platea curae duis
-                          hendrerit per ut dapibus per,
-                          class auctor cursus tempus gravida
-                          lectus habitasse neque massa,
-                          vestibulum proin velit tempor
-                          volutpat amet sagittis mauris.
-                          iaculis torquent etiam quis primis
-                          mattis curabitur, fermentum ut
-                          auctor fusce aptent, mollis
-                          elementum luctus cubilia iaculis.
+                          Este projeto é um blog pago por
+                          assinatura. Na sua construção foi
+                          utilizado alguns dos conceitos da
+                          arquitetura JAMStack. Além disso,
+                          o NextJS foi bastante explorado
+                          nesse projeto para renderização,
+                          visando um melhor SEO e perfomance
+                          da aplicação.
                         </p>
                       </div>
 
                       <div className="detailsProject">
                         <div>ReactJS</div>
-                        <div>NodeJS</div>
-                        <div>Jest</div>
                         <div>MongoDB</div>
-                        <div>Postgres</div>
+                        <div>Prismic CMS</div>
+                        <div>Stripe</div>
+                        <div>NextJS</div>
                         <div className="lineBreak">
-                          Redis
+                          OAuth
                         </div>
-                        <div>Styled-Components</div>
-                        <div>Amazon SES e S3</div>
                       </div>
                       <div className="Icons">
                         <MdOutlineOpenInNew />

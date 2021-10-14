@@ -57,7 +57,7 @@ const AboutMeSection = () => {
                   <li>Laravel</li>
                   <li>PowerBI</li>
                   <li>Tableau</li>
-                  <li>VBA</li>
+                  <li>Excel, VBA e SQL</li>
                   <li>Jest</li>
                   <li>Next</li>
                   <li>Typescript</li>

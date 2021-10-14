@@ -142,6 +142,7 @@ export const Text = styled.div`
     transform: translate(-30%, 0);
     padding: 20px;
     z-index: 20;
+    font-size: 12px;
   }
 
   .cardText1 {
@@ -149,6 +150,7 @@ export const Text = styled.div`
     width: 600px;
     padding: 20px;
     transform: translate(-5%, 0);
+    font-size: 12px;
   }
 
   @media (max-width: 1050px) {

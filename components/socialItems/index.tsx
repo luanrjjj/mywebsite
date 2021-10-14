@@ -17,9 +17,9 @@ export const SocialItems = () => {
           <FiGithub />
         </a>
       </li>
-      <li key="github">
+      <li key="linkedin">
         <a
-          href="https://github.com/luanrjjj"
+          href="https://www.linkedin.com/in/luan-alfredo-freitas-dias-924133180/"
           aria-label="Github"
           target="_blank"
           rel="noreferrer"
