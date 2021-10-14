@@ -8,7 +8,7 @@ import { JobsSection } from '../components/JobsSection'
 import MainSection from '../components/MainSection'
 import ProjectsSection from '../components/ProjectsSection'
 import { SocialItems } from '../components/socialItems'
-import { Body } from './styles'
+import Body from './styles'
 
 const Home: NextPage = () => {
   return (
