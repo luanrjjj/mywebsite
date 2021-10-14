@@ -22,14 +22,16 @@ const ProjectsSection = () => {
                 <GridContent>
                   <div className="imageGrid">
                     <div className="imageBox">
-                      <Image
-                        alt=""
-                        src="/MeczBarber.png"
-                        width={500}
-                        height={250}
-                        layout="fill"
-                        className="imageProject"
-                      ></Image>
+                      <a href="https://www.mecz.com.br">
+                        <Image
+                          alt=""
+                          src="/MeczBarber.png"
+                          width={500}
+                          height={250}
+                          layout="fill"
+                          className="imageProject"
+                        ></Image>
+                      </a>
                     </div>
                   </div>
                   <Text>
@@ -71,8 +73,16 @@ const ProjectsSection = () => {
                         <div>Amazon SES e S3</div>
                       </div>
                       <div className="Icons">
-                        <MdOutlineOpenInNew />
-                        <FiGithub />
+                        <a
+                          href="https://www.mecz.com.br"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          <MdOutlineOpenInNew />
+                        </a>
+                        <a href="https://github.com/luanrjjj/backendnodegobarber">
+                          <FiGithub />
+                        </a>
                       </div>
                     </div>
                   </Text>
@@ -109,7 +119,7 @@ const ProjectsSection = () => {
                         </div>
                       </div>
                       <div className="Icons">
-                        <a>
+                        <a href="https://projectgitdash.netlify.app/">
                           <MdOutlineOpenInNew />
                         </a>
                         <FiGithub />
@@ -118,14 +128,16 @@ const ProjectsSection = () => {
                   </Text>
                   <div className="imageGrid">
                     <div className="imageBox">
-                      <Image
-                        alt=""
-                        src="/GitDash.png"
-                        width={500}
-                        height={250}
-                        layout="fixed"
-                        className="imageProject"
-                      ></Image>
+                      <a href="https://projectgitdash.netlify.app/">
+                        <Image
+                          alt=""
+                          src="/GitDash.png"
+                          width={500}
+                          height={250}
+                          layout="fixed"
+                          className="imageProject"
+                        ></Image>
+                      </a>
                     </div>
                   </div>
                 </GridContent>
