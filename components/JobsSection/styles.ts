@@ -125,4 +125,9 @@ export const Text = styled.div`
     position: relative;
     color: ${colors.green200};
   }
+
+  .details {
+    display: inline;
+    color: ${colors.green100};
+  }
 `

@@ -47,16 +47,27 @@ const ProjectsSection = () => {
                           front-end e o back-end foram
                           separados, sendo que no front-end
                           foi utilizado os conceitos mais
-                          avançados do React. O Back-end que
-                          foi o foco principal desse projeto
-                          foi feito com cobertura total de
-                          testes unitários, respeitando os
-                          príncipios SOLID na Arquitetura do
-                          projeto. Além dis so, o projeto
-                          utiliza 3 bancos de dados e também
-                          utiliza os serviços da Digital
-                          Ocean, para hospedagem do
-                          back-end, e Amazon S3 e SES.
+                          avançados do{' '}
+                          <p className="details">React</p>.
+                          O Back-end que foi o foco
+                          principal desse projeto foi feito
+                          com cobertura total de testes
+                          unitários, respeitando os
+                          príncipios{' '}
+                          <p className="details">SOLID</p>{' '}
+                          na Arquitetura do projeto. Além
+                          dis so, o projeto utiliza 3 bancos
+                          de dados e também utiliza os
+                          serviços da{' '}
+                          <p className="details">
+                            Digital Ocean
+                          </p>
+                          , para hospedagem do back-end, e{' '}
+                          <p className="details">
+                            {' '}
+                            Amazon S3 e SES
+                          </p>
+                          .
                         </p>
                       </div>
 
@@ -102,10 +113,12 @@ const ProjectsSection = () => {
                           Como trabalhei bastante com a
                           confecção de Dashboards em Powerbi
                           e Tableau, decidi fazer um
-                          Dashboard com React. Este projeto
-                          consulta a API do Github e fornece
-                          as informações do repositório de
-                          um Usuário em um Dashboard.
+                          Dashboard com{' '}
+                          <p className="details">React</p> .
+                          Este projeto consulta a API do
+                          Github e fornece as informações do
+                          repositório de um Usuário em um
+                          Dashboard.
                         </p>
                       </div>
 
@@ -170,11 +183,16 @@ const ProjectsSection = () => {
                           Este projeto é um blog pago por
                           assinatura. Na sua construção foi
                           utilizado alguns dos conceitos da
-                          arquitetura JAMStack. Além disso,
-                          o NextJS foi bastante explorado
-                          nesse projeto para renderização,
-                          visando um melhor SEO e perfomance
-                          da aplicação.
+                          arquitetura{' '}
+                          <p className="details">
+                            JAMStack.
+                          </p>{' '}
+                          Além disso, o NextJS foi bastante
+                          explorado nesse projeto para
+                          renderização, visando um melhor
+                          SEO e perfomance da aplicação.
+                          Cartão de Crédito teste : 4242
+                          4242 4242 4242.
                         </p>
                       </div>
 

@@ -54,8 +54,12 @@ export const JobsSection = () => {
                   </li>
                   <li>
                     Construção de Relatórios Financeiros
-                    para Diretoria, inserindo Ferramentas de
-                    Business Inteligence e Análise de Dados;
+                    para Diretoria, utilizando Ferramentas
+                    como{' '}
+                    <p className="details">
+                      Powerbi, Sharepoint, Sap, Python e VBA
+                    </p>
+                    ;
                   </li>
                   <li>
                     Instaurar uma cultura de acompanhamento
@@ -93,11 +97,14 @@ export const JobsSection = () => {
                   </li>
                   <li>
                     Crição de fluxos de tratamento e análise
-                    de dados em Python;
+                    de dados em{' '}
+                    <p className="details">Python</p>;
                   </li>
                   <li>
-                    Ferramentas Utilizadas: Tableau, Python
-                    e SQL.
+                    Ferramentas Utilizadas:{' '}
+                    <p className="details">
+                      Tableau, Python e SQL.
+                    </p>
                   </li>
                 </ul>
               </>
