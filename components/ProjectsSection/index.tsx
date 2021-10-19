@@ -114,9 +114,12 @@ const ProjectsSection = () => {
                           confecção de Dashboards em Powerbi
                           e Tableau, decidi fazer um
                           Dashboard com{' '}
-                          <p className="details">React</p> .
-                          Este projeto consulta a API do
-                          Github e fornece as informações do
+                          <p className="details">React</p>.{' '}
+                          Este projeto consulta a{' '}
+                          <p className="details">
+                            API do Github
+                          </p>{' '}
+                          e fornece as informações do
                           repositório de um Usuário em um
                           Dashboard.
                         </p>

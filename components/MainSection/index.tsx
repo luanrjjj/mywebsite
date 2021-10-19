@@ -9,13 +9,13 @@ const MainSection = () => {
       <Maxwidth>
         <Main>
           <div className="TextMain">
-            <h2>Oi, </h2>
-            <h1>Meu nome é Luan Alfredo. </h1>
+            <h2>Olá, Seja bem-vindo </h2>
+            <h1>Meu nome é Luan Alfredo </h1>
             <p>
-              Eu sou um Software Engineer do Brasil. Eu
-              gosto de construir coisas na web que tragam
-              valor para a vida das pessoas. Este é o meu
-              site onde divulgo os meus projetos.
+              Eu sou Software Engineer e gosto de construir
+              coisas na web que tragam valor para a vida das
+              pessoas. Este é o meu site onde divulgo os
+              meus projetos.
             </p>
             <button>Resumo</button>
           </div>

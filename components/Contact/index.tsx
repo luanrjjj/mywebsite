@@ -20,9 +20,9 @@ const Contact = () => {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm()
   const onSubmit = (data: RegistrationFormData) => {
-    // console.log(data);
     generateContactNumber()
     sendForm(
       'contact_form',
@@ -40,6 +40,7 @@ const Contact = () => {
         console.log('FAILED...', error)
       },
     )
+    reset({ [data.email]: data.email })
   }
 
   console.log(errors)
@@ -90,7 +91,7 @@ const Contact = () => {
               {Object.keys(errors).length > 0 &&
                 'There are errors, check your console.'}
             </div>
-            <input type="submit" id="enviar"/>
+            <input type="submit" id="enviar" />
           </form>
         </Form>
       </div>
