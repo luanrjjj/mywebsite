@@ -107,7 +107,7 @@ const ProjectsSection = () => {
                       <p className="features1">
                         Características
                       </p>
-                      <h3>GoBarber</h3>
+                      <h3>Gitdash</h3>
                       <div>
                         <p className="cardText1">
                           Como trabalhei bastante com a
@@ -180,7 +180,7 @@ const ProjectsSection = () => {
                       <p className="features">
                         Características
                       </p>
-                      <h3>GoBarber</h3>
+                      <h3>Ignews</h3>
                       <div>
                         <p className="cardText">
                           Este projeto é um blog pago por

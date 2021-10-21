@@ -78,7 +78,7 @@ export const Main = styled.div`
     }
 
     &:focus {
-      outline:none;
+      outline: none;
     }
   }
 `
