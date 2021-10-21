@@ -11,5 +11,10 @@ const Body = styled.div`
     width: 100%;
   }
 `
-
+export const AnimationSection = styled.div`
+  width: 100%;
+  height: 110vh;
+  justify-content:center;
+  text-align:center;
+`
 export default Body

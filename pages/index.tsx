@@ -1,17 +1,36 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import AboutMeSection from '../components/AboutMeSection'
 import Contact from '../components/Contact'
+import Footer from '../components/footer'
 import Header from '../components/Header'
 import { JobsSection } from '../components/JobsSection'
 import MainSection from '../components/MainSection'
 import ProjectsSection from '../components/ProjectsSection'
 import { SocialItems } from '../components/socialItems'
-import Body from './styles'
+import Body, { AnimationSection } from './styles'
+import animationGit from '../public/animationLottie.json'
+import Lottie from 'react-lottie'
 
 const Home: NextPage = () => {
-  return (
+  const [completed, setCompleted] = useState(false)
+
+  const defaultOptions1 = {
+    loop: true,
+    autoplay: true,
+    animationData: animationGit,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  }
+
+  useEffect(() => {
+    setTimeout(() => {
+      setCompleted(true)
+    }, 2500)
+  })
+  return !completed ? (
     <>
       <Head>
         <title>LA | Portfolio</title>
@@ -21,6 +40,20 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/icon.jpg" />
       </Head>
+      <Body>
+        <AnimationSection>
+          <div className="animation">
+            <Lottie
+              options={defaultOptions1}
+              height={700}
+              width={700}
+            />
+          </div>
+        </AnimationSection>
+      </Body>
+    </>
+  ) : (
+    <>
       <Body>
         <Header />
         <div className="SectionContent">
