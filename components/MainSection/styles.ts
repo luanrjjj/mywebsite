@@ -76,5 +76,9 @@ export const Main = styled.div`
         #22543d 99%
       );
     }
+
+    &:focus {
+      outline:none;
+    }
   }
 `
