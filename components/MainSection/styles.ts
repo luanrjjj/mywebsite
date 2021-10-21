@@ -6,7 +6,7 @@ export const Maxwidth = styled.div`
   max-width: 100%;
   border-bottom: 3px solid ${colors.lightbody};
   margin-top: 100px;
-  height: 80vh;
+
 `
 
 export const Main = styled.div`
