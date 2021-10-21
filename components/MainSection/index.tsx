@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from 'react'
 import { Main, Maxwidth } from './styles'
 
-
 const MainSection = () => {
   return (
     <>
@@ -19,7 +18,7 @@ const MainSection = () => {
               meus projetos.
             </p>
             <a href="/Document.pdf">
-            <button>Resumo</button>
+              <button>Resumo</button>
             </a>
           </div>
         </Main>

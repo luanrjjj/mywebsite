@@ -5,6 +5,8 @@ const Body = styled.div`
   background-color: ${colors.body};
   width: 100%;
 
+  font-size: 14px;
+  scroll-behavior: smooth;
   .SectionContent {
     width: 100%;
   }

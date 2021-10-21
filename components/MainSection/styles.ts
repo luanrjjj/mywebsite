@@ -6,7 +6,6 @@ export const Maxwidth = styled.div`
   max-width: 100%;
   border-bottom: 3px solid ${colors.lightbody};
   margin-top: 100px;
-
 `
 
 export const Main = styled.div`
@@ -30,7 +29,7 @@ export const Main = styled.div`
     }
 
     h2 {
-      color: ${colors.gray700};
+      color: ${colors.green200};
       font-size: 48px;
     }
 
