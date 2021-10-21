@@ -5,7 +5,8 @@ export const Maxwidth = styled.div`
   background-color: ${colors.body};
   max-width: 100%;
   border-bottom: 3px solid ${colors.lightbody};
-  margin-top: 30px;
+  margin-top: 100px;
+  height: 80vh;
 `
 
 export const Main = styled.div`
