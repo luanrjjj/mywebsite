@@ -26,10 +26,12 @@ export const AnimationSection = styled.div`
 
     @media (max-width: 500px) {
       width: 350px;
+      height: 500px;
     }
 
     @media (max-width: 350px) {
       width: 230px;
+      height: 500px;
     }
   }
 `
