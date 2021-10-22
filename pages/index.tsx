@@ -30,7 +30,7 @@ const Home: NextPage = () => {
       setCompleted(true)
     }, 2500)
   })
-  return !completed ? (
+  return completed ? (
     <>
       <Head>
         <title>LA | Portfolio</title>
@@ -43,11 +43,7 @@ const Home: NextPage = () => {
       <Body>
         <AnimationSection>
           <div className="animation">
-            <Lottie
-              options={defaultOptions1}
-              height={700}
-              width={700}
-            />
+            <Lottie options={defaultOptions1} />
           </div>
         </AnimationSection>
       </Body>

@@ -14,7 +14,19 @@ const Body = styled.div`
 export const AnimationSection = styled.div`
   width: 100%;
   height: 110vh;
-  justify-content:center;
-  text-align:center;
+  left: 30%;
+
+  .animation {
+    max-width: 700px;
+    margin: auto;
+
+    @media (max-width: 750px) {
+      width: 500px;
+    }
+
+    @media (max-width: 50px) {
+      width: 350px;
+    }
+  }
 `
 export default Body
