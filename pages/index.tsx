@@ -30,7 +30,7 @@ const Home: NextPage = () => {
       setCompleted(true)
     }, 2500)
   })
-  return completed ? (
+  return !completed ? (
     <>
       <Head>
         <title>LA | Portfolio</title>
