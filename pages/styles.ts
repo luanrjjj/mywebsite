@@ -24,7 +24,7 @@ export const AnimationSection = styled.div`
       width: 500px;
     }
 
-    @media (max-width: 50px) {
+    @media (max-width: 500px) {
       width: 350px;
     }
   }
