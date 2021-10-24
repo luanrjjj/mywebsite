@@ -52,6 +52,7 @@ const Home: NextPage = () => {
     <>
       <Body>
         <Header />
+
         <div className="SectionContent">
           <MainSection />
           <div id="about">

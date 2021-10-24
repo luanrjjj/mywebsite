@@ -10,6 +10,10 @@ const Body = styled.div`
   .SectionContent {
     width: 100%;
   }
+
+  p {
+    line-height: 130%;
+  }
 `
 export const AnimationSection = styled.div`
   width: 100%;

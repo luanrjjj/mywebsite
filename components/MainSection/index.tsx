@@ -17,7 +17,7 @@ const MainSection = () => {
               pessoas. Este é o meu site onde divulgo os
               meus projetos.
             </p>
-            <a href="/Document.pdf">
+            <a href="/CVLuanAlfredo.pdf">
               <button>Resumo</button>
             </a>
           </div>

@@ -1,6 +1,22 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import colors from '../../styles/colors'
 
+const animation = keyframes`
+  from {opacity:0;}
+  to { opacity:1;}
+`
+const animationTExt = keyframes`
+ from {
+        opacity: 0;
+        transform: translateY(-10px);
+        filter: blur(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+      }
+`
 export const Maxwidth = styled.div`
   background-color: ${colors.body};
   max-width: 100%;
@@ -46,6 +62,15 @@ export const Main = styled.div`
         width: 210px;
       }
     }
+
+    h1,
+    h2,
+    p {
+      animation:${animation} 1.5s;
+      }
+    }
+
+   
   }
 
   button {
@@ -80,5 +105,6 @@ export const Main = styled.div`
     &:focus {
       outline: none;
     }
-  }
+  
+
 `
