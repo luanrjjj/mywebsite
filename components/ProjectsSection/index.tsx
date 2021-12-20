@@ -153,6 +153,7 @@ const ProjectsSection = () => {
                           layout="fill"
                           className="imageProject"
                         ></Image>
+                        <div className="Text"></div>
                       </a>
                     </div>
                   </div>

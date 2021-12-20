@@ -93,8 +93,16 @@ export const GridContent = styled.div`
     display: block;
     position: relative;
     border-radius: 20px;
-    background-color: ${colors.gray500};
+    background-color: ${colors.body};
     height: 250px;
+
+    .Text {
+      z-index: 999;
+      h1 {
+        color: #fff;
+        text-align: right;
+      }
+    }
 
     width: 500px;
     min-height: 250px !important;
@@ -106,14 +114,14 @@ export const GridContent = styled.div`
       width: 400px !important;
     }
     @media (max-width: 400px) {
-      width: 350px !important;
+      width: 320px !important;
     }
     @media (max-width: 350px) {
-      width: 315px !important;
+      width: 280px !important;
     }
 
     @media (max-width: 315px) {
-      width: 270px !important;
+      width: 220px !important;
     }
 
     &:hover,
@@ -125,7 +133,7 @@ export const GridContent = styled.div`
   .imageProject {
     position: relative;
     border-radius: 20px;
-    mix-blend-mode: multiply;
+    //mix-blend-mode: multiply;
     min-height: 250px;
   }
 `
