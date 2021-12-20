@@ -1,9 +1,14 @@
 import styled from 'styled-components'
 import colors from '../styles/colors'
 
+const Container = styled.div`
+  height: 100%;
+  background-color: ${colors.body};
+`
 const Body = styled.div`
   background-color: ${colors.body};
   width: 100%;
+  min-height: 100vh;
 
   font-size: 14px;
   scroll-behavior: smooth;
@@ -17,7 +22,6 @@ const Body = styled.div`
 `
 export const AnimationSection = styled.div`
   width: 100%;
-  height: 110vh;
   left: 30%;
 
   .animation {

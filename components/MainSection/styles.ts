@@ -28,7 +28,7 @@ export const Main = styled.div`
   max-width: 1050px;
   background-color: ${colors.body};
   margin: auto;
-  height: 500px;
+  height: 550px;
 
   .TextMain {
     position: absolute;

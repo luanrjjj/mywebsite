@@ -12,6 +12,7 @@ import { SocialItems } from '../components/socialItems'
 import Body, { AnimationSection } from './styles'
 import animationGit from '../public/animationLottie.json'
 import Lottie from 'react-lottie'
+import { Container } from '../components/Header/styles'
 
 const Home: NextPage = () => {
   const [completed, setCompleted] = useState(false)
@@ -40,13 +41,15 @@ const Home: NextPage = () => {
         />
         <link rel="icon" href="/icon.jpg" />
       </Head>
-      <Body>
-        <AnimationSection>
-          <div className="animation">
-            <Lottie options={defaultOptions1} />
-          </div>
-        </AnimationSection>
-      </Body>
+      <Container>
+        <Body>
+          <AnimationSection>
+            <div className="animation">
+              <Lottie options={defaultOptions1} />
+            </div>
+          </AnimationSection>
+        </Body>
+      </Container>
     </>
   ) : (
     <>

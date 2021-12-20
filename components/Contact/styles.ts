@@ -3,6 +3,7 @@ import colors from '../../styles/colors'
 
 export const ContactSection = styled.div`
   max-width: 100%;
+  padding: 10px;
   .SectionContent {
     max-width: 850px;
     margin: auto;
@@ -43,6 +44,10 @@ export const Form = styled.div`
   form {
     max-width: 500px;
     margin: 0 auto;
+
+    @media (max-width: 400px) {
+      width: 300px;
+    }
   }
 
   h1 {
@@ -56,6 +61,9 @@ export const Form = styled.div`
     background: #0e101c;
     max-width: 400px;
     margin: 0 auto;
+    @media (max-width: 400px) {
+      width: 200px;
+    }
   }
 
   p {
